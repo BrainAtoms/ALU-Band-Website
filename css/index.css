@@ -1,0 +1,10 @@
+.title {color: green; font-family: 'Times New Roman', Times, serif; font-size: larger;}
+body {background-color: rgb(243, 222, 101); border-style: solid; border-width: thick; color: green;}
+body {text-align: center;}
+:any-link{color: royalblue;font-size: x-large;}
+h2 {text-decoration-line: overline underline; text-decoration-style: wavy;}
+h3 {color: royalblue; font-family: 'Times New Roman', Times, serif; font-size: xx-large;}
+h4 {font-family: wingdings; font-size: xx-large;} 
+
+
+
