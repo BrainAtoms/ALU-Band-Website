@@ -5,6 +5,56 @@ body {text-align: center;}
 h2 {text-decoration-line: overline underline; text-decoration-style: wavy;}
 h3 {color: royalblue; font-family: 'Times New Roman', Times, serif; font-size: xx-large;}
 h4 {font-family: wingdings; font-size: xx-large;} 
+@font-face {  
+    font-family: WebFont;
+    src: url('webfont.new') format('new format');
+  }
+  
+  body {
+    font-family: WebFont;
+    font-weight: 450;
+    font-width: 200;
+  }
+  
+  h4 {  
+    font-weight: 600;
+    font-width: 999;
+  }
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
 
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; height: auto; }
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+html { font-size:100%; }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
 
 
