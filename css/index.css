@@ -20,7 +20,7 @@ h4 {font-family: wingdings; font-size: xx-large;}
     font-weight: 600;
     font-width: 999;
   }
-img {border: darkgreen; border-style: ridge;}
+img {border: darkgreen; border-style: ridge dotted; border;}
  
 
 
