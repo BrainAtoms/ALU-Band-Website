@@ -1,27 +1,36 @@
 .title {color: green; font-family: 'Times New Roman', Times, serif; font-size: larger;}
-body {background-color: rgb(243, 222, 101); border-style: solid; border-width: thick; color: green;}
+body {background-color: rgb(243, 222, 101); border: 4mm ridge rgba(12, 140, 8, 0.859);}
 body {text-align: center;}
 :any-link{color: royalblue;font-size: x-large;}
-h2 {text-decoration-line: overline underline; text-decoration-style: wavy;}
+h2 {text-align: center; animation: wiggle 3s linear infinite;}
+@keyframes wiggle {
+  0% {transform: translate(1px, 1px) rotate(0deg);}
+  40% {transform: translate(1px, -1px) rotate(1deg);}
+  50% {transform: translate(-1px, 2px) rotate(-1deg);}
+  60% {transform: translate(-3px, 1px) rotate(0deg);}
+  70% {transform: translate(3px, 1px) rotate(-1deg);}
+  80% {transform: translate(-1px, 1px) rotate(1deg);}
+  90% {transform: translate(1px, 2px) rotate(0deg);}
+  100% {transform: translate(1px, -2px) rotate(-1deg);}
+}
 h3 {color: royalblue; font-family: 'Times New Roman', Times, serif; font-size: xx-large;}
-h4 {font-family: wingdings; font-size: xx-large;} 
+h4 {font-family: wingdings; font-size: xx-large; animation: wiggle 2s linear infinite} 
 @font-face {  
     font-family: WebFont;
     src: url('webfont.new') format('new format');
   }
   
   body {
+    color: green;
     font-family: WebFont;
     font-weight: 450;
-    font-width: 200;
+    width: 200;
   }
   
   h4 {  
     font-weight: 600;
-    font-width: 999;
+    width: 999;
   }
-img {border: darkgreen; border-style: ridge;}
 
- 
-
+img {border: darkgreen; border-style: ridge; border-width: thick;}
 
