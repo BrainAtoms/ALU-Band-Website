@@ -13,7 +13,7 @@ h2 {text-align: center; animation: wiggle 5s linear infinite;}
   90% {transform: translate(1px, 2px) rotate(0deg);}
   100% {transform: translate(1px, -2px) rotate(-1deg);}
 }
-h3 {color: royalblue; font-family: 'Times New Roman', Times, serif; font-size: xx-large;}
+h3 {color: forestgreen; font-family: 'Times New Roman', Times, serif; font-size: x-large;}
 h4 {font-family: wingdings; font-size: xx-large; animation: wiggle 2s linear infinite} 
 @font-face {  
     font-family: WebFont;
