@@ -1,7 +1,7 @@
 .title {color: green; font-family: 'Times New Roman', Times, serif; font-size: larger;}
 body {background-color: rgb(243, 222, 101); border: 4mm ridge rgba(12, 140, 8, 0.859);}
 body {text-align: center;}
-:any-link{color: royalblue;font-size: x-large;}
+/* :any-link{color: royalblue;font-size: x-large;} */
 h2 {text-align: center; animation: wiggle 5s linear infinite;}
 @keyframes wiggle {
   0% {transform: translate(1px, 1px) rotate(0deg);}
@@ -25,12 +25,42 @@ h4 {font-family: wingdings; font-size: xx-large; animation: wiggle 2s linear inf
     font-family: WebFont;
     font-weight: 450;
     width: 200;
+    margin: 0px; 
+    padding: 0px; 
   }
   
   h4 {  
     font-weight: 600;
     width: 999;
   }
+
+nav {
+    display: flex;
+    justify-content:space-evenly; 
+    background-color: palegoldenrod;
+    height: 50px;
+  }
+
+nav a {
+  margin-top: 5px;
+}
+
+@media (max-width:500px) {
+ .nav a {
+      font-size:15px;
+      margin-top: 15px;
+  }
+}
+
+a {
+  color: green;
+  font-size: x-large;
+}
+
+a:hover {
+  color: darkmagenta;
+  text-decoration: none;
+}
 
 img {border: darkgreen; border-style: ridge; border-width: thick;}
 
