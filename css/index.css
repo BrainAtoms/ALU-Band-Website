@@ -37,7 +37,7 @@ h4 {font-family: wingdings; font-size: xx-large; animation: wiggle 2s linear inf
 nav {
     display: flex;
     justify-content:space-evenly; 
-    background-color: palegoldenrod;
+    background-color: darkgreen;
     height: 50px;
   }
 
@@ -52,13 +52,22 @@ nav a {
   }
 }
 
+nav a {
+  color: skyblue; 
+  font-size: x-large;
+}
+
 a {
-  color: green;
   font-size: x-large;
 }
 
 a:hover {
+  text-decoration: none;
   color: darkmagenta;
+}
+
+.nav a:hover {
+  color: lightgoldenrodyellow;
   text-decoration: none;
 }
 
