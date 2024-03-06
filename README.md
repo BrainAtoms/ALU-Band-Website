@@ -1,7 +1,7 @@
 
 # ALU-Band-Website
 ## ![License Badge](https://shields.io/badge/license-None-green) 
-![Screen Shot 2023-09-20 at 2 15 52 PM (2)](https://github.com/BrainAtoms/ALU-Band-Website/assets/61917285/e9b6a897-5509-41bf-8aca-c631d41d5915)
+![Screen Shot 2024-03-06 at 4 49 45 PM](https://github.com/BrainAtoms/ALU-Band-Website/assets/61917285/22d3f1d9-9c4e-4868-b228-42f5f12cd8c8)
 ## Link https://arborlaborunion.com/
 ## Description 
 Website for The Arbor Labor Union containing music videos, information about shows, etc.
